@@ -5,8 +5,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Routes,
-  Link
+  Link,
+  Route
 } from "react-router-dom";
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -14,10 +16,10 @@ function App() {
     
     <Router>
     <Header />
-     <Routes >
-          {/* <Route path="/about">
-            <About />
-          </Route> */}
+     <Routes > 
+          <Route path="/" exact component={Home} />
+            
+          
      </Routes>
     </Router>
     </>
