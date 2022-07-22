@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Head from './Head'
-import '../components/Header.css'
+import Head from '../Header/Head.js'
+import '../Header/Header.css'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
